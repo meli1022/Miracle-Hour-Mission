@@ -3,7 +3,7 @@ var Pageflip = (function(fn) {
   
     fn = function(mainElement, pages) {
       this.pages = pages;
-      this.audioUrl = 'page-flip.mp3';
+      /*this.audioUrl = 'page-flip.mp3';*/
       this.transitionMs = 500;
       this.hasPrevPage = false;
       this.hasNextPage = true;
